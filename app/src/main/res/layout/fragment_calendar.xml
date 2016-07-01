@@ -9,8 +9,33 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <CalendarView
+        android:id="@+id/calendar"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:layout_centerInParent="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:id="@+id/button2"
+            android:layout_marginBottom="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toEndOf="@+id/textView2" />
 
 </RelativeLayout>

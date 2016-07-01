@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overview_layout">
+
+    <LinearLayout android:layout_height="71dp"
+        android:layout_width="171dp"
+        android:orientation="horizontal"
+        android:id="@+id/name_layout"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="270dp"
+        android:id="@+id/todo_input"
+        android:hint="ex) CS496 Due date"/>
+
+    <Button android:layout_height="83dp"
+        android:layout_width="wrap_content"
+        android:text="ADD"
+        android:textSize="20dp"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
